@@ -300,4 +300,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## 13. Project Status and Future Roadmap
 
-Note: This implementation serves as an initial prototype and working proof of concept. The system will be completely updated, expanded, and refined in future releases to provide full, robust assistive capabilities tailored specifically for visually impaired and low-vision users across complex campus environments.
+Note: This implementation serves as an initial prototype and working of the concept. The system will be completely updated, expanded, and refined in future releases to provide full, robust assistive capabilities tailored specifically for visually impaired and low-vision users across complex campus environments.
