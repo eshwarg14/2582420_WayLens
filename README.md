@@ -129,8 +129,8 @@ Waylens/
 |   \-- floormap.js        : High-DPI interactive 2D floor map renderer
 |
 |-- docs/                  : Architectural documentation and diagrams
-|   |-- README.md          : Asset guidelines
 |   |-- WayLens_Problem_statement.pdf : Original project specification
+|   |-- architecture.md    : Overall Project Architecture Working
 |   |-- architecture.png   : System architecture diagram
 |   |-- workflow.png       : Application workflow flowchart
 |   \-- screenshots/       : UI and navigation screenshots
@@ -151,7 +151,6 @@ Waylens/
 |   \-- audio_cache/       : Speech synthesis audio cache
 |
 \-- demo/                  : Demonstration recordings
-    |-- README.md          : Recording instructions
     \-- demo.mp4           : Video demonstration
 ```
 
