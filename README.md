@@ -6,6 +6,17 @@ WayLens is an autonomous on-device artificial intelligence navigation assistant 
 
 ---
 
+## Overview
+
+WayLens provides an accessible, high-contrast user interface tailored for fast camera scanning, voice interaction, and real-time 2D floor map tracking.
+
+| Live Camera Navigation Mode | Demo Photo Upload Mode |
+|:---:|:---:|
+| ![WayLens Live Mode](docs/screenshots/Live_Mode.png) | ![WayLens Demo Mode](docs/screenshots/Demo_mode.png) |
+| *Continuous camera scanning with live HUD crosshair, voice toggle, and real-time step progress* | *Single photo inspection with instant OCR room detection and spoken guidance* |
+
+---
+
 ## 1. Problem Statement and University Focus
 
 University campuses present severe spatial navigation challenges for visually impaired and low-vision individuals:
