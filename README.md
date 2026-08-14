@@ -295,3 +295,9 @@ Evaluation benchmark run across the complete multi-floor dataset (Ground, 1st, a
 ## 12. License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## 13. Project Status and Future Roadmap
+
+Note: This implementation serves as an initial prototype and working proof of concept. The system will be completely updated, expanded, and refined in future releases to provide full, robust assistive capabilities tailored specifically for visually impaired and low-vision users across complex campus environments.
