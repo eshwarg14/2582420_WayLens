@@ -130,7 +130,7 @@ Waylens/
 |
 |-- docs/                  : Architectural documentation and diagrams
 |   |-- WayLens_Problem_statement.pdf : Original project specification
-|   |-- architecture.md    : Overall Project Architecture Working
+|   |-- architecture_plan.md          : Overall Project Architecture Working
 |   |-- architecture.png   : System architecture diagram
 |   |-- workflow.png       : Application workflow flowchart
 |   \-- screenshots/       : UI and navigation screenshots
