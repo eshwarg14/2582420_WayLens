@@ -1,0 +1,3237 @@
+{
+  "metadata": {
+    "description": "WayLens building knowledge graph",
+    "floors": {
+      "5": "Ground Floor",
+      "6": "First Floor",
+      "7": "Second Floor"
+    },
+    "total_nodes": 116,
+    "total_edges": 254
+  },
+  "nodes": [
+    {
+      "id": "501",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 501",
+      "aliases": [
+        "501",
+        "five oh one",
+        "five zero one"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "502",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 502",
+      "aliases": [
+        "502",
+        "five oh two",
+        "five zero two"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "503",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 503",
+      "aliases": [
+        "503",
+        "five oh three",
+        "five zero three"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "504",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 504",
+      "aliases": [
+        "504",
+        "five oh four",
+        "five zero four"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "505",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 505",
+      "aliases": [
+        "505",
+        "five oh five",
+        "five zero five"
+      ],
+      "corridor": "5_east",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "506",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 506",
+      "aliases": [
+        "506",
+        "five oh six",
+        "five zero six"
+      ],
+      "corridor": "5_east",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "507",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 507",
+      "aliases": [
+        "507",
+        "five oh seven",
+        "five zero seven"
+      ],
+      "corridor": "5_east",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "507A",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 507A",
+      "aliases": [
+        "507A",
+        "five oh seven A",
+        "five zero seven A"
+      ],
+      "corridor": "5_east",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "513",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 513",
+      "aliases": [
+        "513",
+        "five thirteen"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "514",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 514",
+      "aliases": [
+        "514",
+        "five fourteen"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "515",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 515",
+      "aliases": [
+        "515",
+        "five fifteen"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "516",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 516",
+      "aliases": [
+        "516",
+        "five sixteen"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "517",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 517",
+      "aliases": [
+        "517",
+        "five seventeen"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "518",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 518",
+      "aliases": [
+        "518",
+        "five eighteen"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "521",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 521",
+      "aliases": [
+        "521",
+        "five twenty one"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "522",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 522",
+      "aliases": [
+        "522",
+        "five twenty two"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "523",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 523",
+      "aliases": [
+        "523",
+        "five twenty three"
+      ],
+      "corridor": "5_inner_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "524",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 524",
+      "aliases": [
+        "524",
+        "five twenty four"
+      ],
+      "corridor": "5_inner_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "526",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 526",
+      "aliases": [
+        "526",
+        "five twenty six"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "527",
+      "type": "room",
+      "floor": 5,
+      "label": "Room 527",
+      "aliases": [
+        "527",
+        "five twenty seven"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Hall_5",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Hall",
+      "aliases": [
+        "hall",
+        "main hall"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Seminar_Hall",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Seminar Hall",
+      "aliases": [
+        "seminar hall",
+        "seminar"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Dept_of_Commerce",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Department of Commerce",
+      "aliases": [
+        "department of commerce",
+        "dept of commerce",
+        "commerce department",
+        "dean school of commerce",
+        "Dean_School_of_Commerce"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Physics_Lab",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Physics Lab",
+      "aliases": [
+        "physics lab",
+        "physics laboratory"
+      ],
+      "corridor": "5_south_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Xerox_5",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Xerox",
+      "aliases": [
+        "xerox",
+        "photocopy",
+        "copy center"
+      ],
+      "corridor": "5_south_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Panel_Room",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Panel Room",
+      "aliases": [
+        "panel room",
+        "panel"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Water_5",
+      "type": "landmark",
+      "floor": 5,
+      "label": "Water Cooler (Ground Floor)",
+      "aliases": [
+        "water",
+        "water cooler",
+        "drinking water"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Lift_5NE",
+      "type": "lift",
+      "floor": 5,
+      "label": "Lift (NE, Ground Floor)",
+      "aliases": [
+        "lift",
+        "elevator"
+      ],
+      "corridor": "5_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Lift_5C",
+      "type": "lift",
+      "floor": 5,
+      "label": "Lift (Center, Ground Floor)",
+      "aliases": [
+        "lift",
+        "elevator",
+        "center lift"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Steps_5SW",
+      "type": "steps",
+      "floor": 5,
+      "label": "Steps (SW, Ground Floor)",
+      "aliases": [
+        "steps",
+        "stairs",
+        "staircase"
+      ],
+      "corridor": "5_south_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Steps_5NE",
+      "type": "steps",
+      "floor": 5,
+      "label": "Steps (NE, Ground Floor)",
+      "aliases": [
+        "steps",
+        "stairs",
+        "staircase"
+      ],
+      "corridor": "5_inner_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Steps_5SE",
+      "type": "steps",
+      "floor": 5,
+      "label": "Steps (SE, Ground Floor)",
+      "aliases": [
+        "steps",
+        "stairs",
+        "staircase"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Gate_5E",
+      "type": "gate",
+      "floor": 5,
+      "label": "Gate (East, Ground Floor)",
+      "aliases": [
+        "gate",
+        "east gate",
+        "main gate"
+      ],
+      "corridor": "5_south",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Gate_5NE",
+      "type": "gate",
+      "floor": 5,
+      "label": "Gate (NE, Ground Floor)",
+      "aliases": [
+        "gate",
+        "north east gate"
+      ],
+      "corridor": "5_inner_north",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Small_Gate_5",
+      "type": "gate",
+      "floor": 5,
+      "label": "Small Gate (Ground Floor)",
+      "aliases": [
+        "small gate",
+        "back gate"
+      ],
+      "corridor": "5_south_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Gents_Toilet_5E",
+      "type": "toilet",
+      "floor": 5,
+      "label": "Gents Toilet (East Wing, Ground Floor)",
+      "aliases": [
+        "gents toilet",
+        "mens toilet",
+        "mens restroom"
+      ],
+      "corridor": "5_east",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Ladies_Toilet_5E",
+      "type": "toilet",
+      "floor": 5,
+      "label": "Ladies Toilet (East Wing, Ground Floor)",
+      "aliases": [
+        "ladies toilet",
+        "womens toilet",
+        "womens restroom"
+      ],
+      "corridor": "5_east",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Gents_Toilet_5W",
+      "type": "toilet",
+      "floor": 5,
+      "label": "Gents Toilet (West Wing, Ground Floor)",
+      "aliases": [
+        "gents toilet",
+        "mens toilet"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "Ladies_Toilet_5W",
+      "type": "toilet",
+      "floor": 5,
+      "label": "Ladies Toilet (West Wing, Ground Floor)",
+      "aliases": [
+        "ladies toilet",
+        "womens toilet"
+      ],
+      "corridor": "5_west",
+      "floor_name": "Ground Floor"
+    },
+    {
+      "id": "601",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 601",
+      "aliases": [
+        "601",
+        "six oh one",
+        "six zero one"
+      ],
+      "corridor": "6_south",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "602",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 602",
+      "aliases": [
+        "602",
+        "six oh two",
+        "six zero two"
+      ],
+      "corridor": "6_south",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "603",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 603",
+      "aliases": [
+        "603",
+        "six oh three",
+        "six zero three"
+      ],
+      "corridor": "6_south",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "604",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 604",
+      "aliases": [
+        "604",
+        "six oh four",
+        "six zero four"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "605",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 605",
+      "aliases": [
+        "605",
+        "six oh five",
+        "six zero five"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "606",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 606",
+      "aliases": [
+        "606",
+        "six oh six",
+        "six zero six"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "607",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 607",
+      "aliases": [
+        "607",
+        "six oh seven",
+        "six zero seven"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "607A",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 607A",
+      "aliases": [
+        "607A",
+        "six oh seven A",
+        "six zero seven A"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "613",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 613",
+      "aliases": [
+        "613",
+        "six thirteen"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "615",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 615",
+      "aliases": [
+        "615",
+        "six fifteen"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "616",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 616",
+      "aliases": [
+        "616",
+        "six sixteen"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "617",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 617",
+      "aliases": [
+        "617",
+        "six seventeen"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "621",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 621",
+      "aliases": [
+        "621",
+        "six twenty one"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "623",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 623",
+      "aliases": [
+        "623",
+        "six twenty three"
+      ],
+      "corridor": "6_inner_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "624",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 624",
+      "aliases": [
+        "624",
+        "six twenty four"
+      ],
+      "corridor": "6_inner_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "625",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 625",
+      "aliases": [
+        "625",
+        "six twenty five"
+      ],
+      "corridor": "6_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "626",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 626",
+      "aliases": [
+        "626",
+        "six twenty six"
+      ],
+      "corridor": "6_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "627",
+      "type": "room",
+      "floor": 6,
+      "label": "Room 627",
+      "aliases": [
+        "627",
+        "six twenty seven"
+      ],
+      "corridor": "6_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Quantum_Computing",
+      "type": "landmark",
+      "floor": 6,
+      "label": "Quantum Computing Lab",
+      "aliases": [
+        "quantum computing",
+        "quantum computing lab",
+        "quantum lab"
+      ],
+      "corridor": "6_south",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Dept_of_Math",
+      "type": "landmark",
+      "floor": 6,
+      "label": "Department of Mathematics",
+      "aliases": [
+        "department of mathematics",
+        "dept of math",
+        "dept of mathematics",
+        "math department",
+        "Dept_of_Mathematics",
+        "mathematics"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Dept_of_CS_W",
+      "type": "landmark",
+      "floor": 6,
+      "label": "Department of Computer Science (West)",
+      "aliases": [
+        "department of computer science",
+        "dept of cs",
+        "cs department",
+        "computer science"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Dept_of_CS_N",
+      "type": "landmark",
+      "floor": 6,
+      "label": "Department of Computer Science (North)",
+      "aliases": [
+        "department of computer science",
+        "dept of cs",
+        "cs department"
+      ],
+      "corridor": "6_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Energy_Science_Lab",
+      "type": "landmark",
+      "floor": 6,
+      "label": "Energy Science Lab",
+      "aliases": [
+        "energy science lab",
+        "energy science",
+        "energy lab"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Water_6",
+      "type": "landmark",
+      "floor": 6,
+      "label": "Water Cooler (First Floor)",
+      "aliases": [
+        "water",
+        "water cooler",
+        "drinking water"
+      ],
+      "corridor": "6_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Lift_6NE",
+      "type": "lift",
+      "floor": 6,
+      "label": "Lift (NE, First Floor)",
+      "aliases": [
+        "lift",
+        "elevator"
+      ],
+      "corridor": "6_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Lift_6C",
+      "type": "lift",
+      "floor": 6,
+      "label": "Lift (Center, First Floor)",
+      "aliases": [
+        "lift",
+        "elevator",
+        "center lift"
+      ],
+      "corridor": "6_south",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Steps_6NE",
+      "type": "steps",
+      "floor": 6,
+      "label": "Steps (NE, First Floor)",
+      "aliases": [
+        "steps",
+        "stairs"
+      ],
+      "corridor": "6_inner_north",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Steps_6E",
+      "type": "steps",
+      "floor": 6,
+      "label": "Steps (East, First Floor)",
+      "aliases": [
+        "steps",
+        "stairs"
+      ],
+      "corridor": "6_south",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Gents_Toilet_6E",
+      "type": "toilet",
+      "floor": 6,
+      "label": "Gents Toilet (East Wing, First Floor)",
+      "aliases": [
+        "gents toilet",
+        "mens toilet"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Ladies_Toilet_6E",
+      "type": "toilet",
+      "floor": 6,
+      "label": "Ladies Toilet (East Wing, First Floor)",
+      "aliases": [
+        "ladies toilet",
+        "womens toilet"
+      ],
+      "corridor": "6_east",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Gents_Toilet_6W",
+      "type": "toilet",
+      "floor": 6,
+      "label": "Gents Toilet (West Wing, First Floor)",
+      "aliases": [
+        "gents toilet",
+        "mens toilet"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "Ladies_Toilet_6W",
+      "type": "toilet",
+      "floor": 6,
+      "label": "Ladies Toilet (West Wing, First Floor)",
+      "aliases": [
+        "ladies toilet",
+        "womens toilet"
+      ],
+      "corridor": "6_west",
+      "floor_name": "First Floor"
+    },
+    {
+      "id": "701",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 701",
+      "aliases": [
+        "701",
+        "seven oh one",
+        "seven zero one"
+      ],
+      "corridor": "7_south",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "702",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 702",
+      "aliases": [
+        "702",
+        "seven oh two",
+        "seven zero two"
+      ],
+      "corridor": "7_south",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "703",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 703",
+      "aliases": [
+        "703",
+        "seven oh three",
+        "seven zero three"
+      ],
+      "corridor": "7_south",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "704",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 704",
+      "aliases": [
+        "704",
+        "seven oh four",
+        "seven zero four"
+      ],
+      "corridor": "7_south",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "705",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 705",
+      "aliases": [
+        "705",
+        "seven oh five",
+        "seven zero five"
+      ],
+      "corridor": "7_east",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "707",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 707",
+      "aliases": [
+        "707",
+        "seven oh seven",
+        "seven zero seven"
+      ],
+      "corridor": "7_east",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "708",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 708",
+      "aliases": [
+        "708",
+        "seven oh eight",
+        "seven zero eight"
+      ],
+      "corridor": "7_east",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "709C",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 709C",
+      "aliases": [
+        "709C",
+        "seven oh nine C",
+        "seven zero nine C"
+      ],
+      "corridor": "7_east",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "710",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 710",
+      "aliases": [
+        "710",
+        "seven ten"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "711",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 711",
+      "aliases": [
+        "711",
+        "seven eleven"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "713",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 713",
+      "aliases": [
+        "713",
+        "seven thirteen"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "714",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 714",
+      "aliases": [
+        "714",
+        "seven fourteen"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "715",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 715",
+      "aliases": [
+        "715",
+        "seven fifteen"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "716",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 716",
+      "aliases": [
+        "716",
+        "seven sixteen"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "717",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 717",
+      "aliases": [
+        "717",
+        "seven seventeen"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "718",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 718",
+      "aliases": [
+        "718",
+        "seven eighteen"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "721",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 721",
+      "aliases": [
+        "721",
+        "seven twenty one"
+      ],
+      "corridor": "7_north_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "722",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 722",
+      "aliases": [
+        "722",
+        "seven twenty two"
+      ],
+      "corridor": "7_north_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "724",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 724",
+      "aliases": [
+        "724",
+        "seven twenty four"
+      ],
+      "corridor": "7_inner_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "725",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 725",
+      "aliases": [
+        "725",
+        "seven twenty five"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "727",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 727",
+      "aliases": [
+        "727",
+        "seven twenty seven"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "741",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 741",
+      "aliases": [
+        "741",
+        "seven forty one"
+      ],
+      "corridor": "7_wing_a",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "742",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 742",
+      "aliases": [
+        "742",
+        "seven forty two"
+      ],
+      "corridor": "7_wing_a",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "743",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 743",
+      "aliases": [
+        "743",
+        "seven forty three"
+      ],
+      "corridor": "7_wing_a",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "744",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 744",
+      "aliases": [
+        "744",
+        "seven forty four"
+      ],
+      "corridor": "7_wing_a",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "746",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 746",
+      "aliases": [
+        "746",
+        "seven forty six"
+      ],
+      "corridor": "7_wing_a",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "747",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 747",
+      "aliases": [
+        "747",
+        "seven forty seven"
+      ],
+      "corridor": "7_wing_a",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "751",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 751",
+      "aliases": [
+        "751",
+        "seven fifty one"
+      ],
+      "corridor": "7_wing_b",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "752",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 752",
+      "aliases": [
+        "752",
+        "seven fifty two"
+      ],
+      "corridor": "7_wing_b",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "753",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 753",
+      "aliases": [
+        "753",
+        "seven fifty three"
+      ],
+      "corridor": "7_wing_b",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "754",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 754",
+      "aliases": [
+        "754",
+        "seven fifty four"
+      ],
+      "corridor": "7_wing_b",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "755",
+      "type": "room",
+      "floor": 7,
+      "label": "Room 755",
+      "aliases": [
+        "755",
+        "seven fifty five"
+      ],
+      "corridor": "7_wing_b",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Prayer_Hall",
+      "type": "landmark",
+      "floor": 7,
+      "label": "Prayer Hall",
+      "aliases": [
+        "prayer hall",
+        "prayer room"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Assembly_Hall",
+      "type": "landmark",
+      "floor": 7,
+      "label": "Assembly Hall",
+      "aliases": [
+        "assembly hall",
+        "assembly"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Dept_of_Psychology",
+      "type": "landmark",
+      "floor": 7,
+      "label": "Department of Psychology",
+      "aliases": [
+        "department of psychology",
+        "dept of psychology",
+        "psychology department",
+        "psychology"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "School_of_Education",
+      "type": "landmark",
+      "floor": 7,
+      "label": "School of Education",
+      "aliases": [
+        "school of education",
+        "education"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Assoc_Dean_Sciences",
+      "type": "landmark",
+      "floor": 7,
+      "label": "Associate Dean, School of Sciences",
+      "aliases": [
+        "associate dean school of sciences",
+        "associate dean sciences",
+        "Associate_Dean_School_of_Sciences"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Lift_7NE",
+      "type": "lift",
+      "floor": 7,
+      "label": "Lift (NE, Second Floor)",
+      "aliases": [
+        "lift",
+        "elevator"
+      ],
+      "corridor": "7_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Lift_7C",
+      "type": "lift",
+      "floor": 7,
+      "label": "Lift (Center, Second Floor)",
+      "aliases": [
+        "lift",
+        "elevator",
+        "center lift"
+      ],
+      "corridor": "7_south",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Steps_7NE",
+      "type": "steps",
+      "floor": 7,
+      "label": "Steps (NE, Second Floor)",
+      "aliases": [
+        "steps",
+        "stairs"
+      ],
+      "corridor": "7_inner_north",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Steps_7E",
+      "type": "steps",
+      "floor": 7,
+      "label": "Steps (East, Second Floor)",
+      "aliases": [
+        "steps",
+        "stairs"
+      ],
+      "corridor": "7_south",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Gents_Toilet_7E",
+      "type": "toilet",
+      "floor": 7,
+      "label": "Gents Toilet (East Wing, Second Floor)",
+      "aliases": [
+        "gents toilet",
+        "mens toilet"
+      ],
+      "corridor": "7_east",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Ladies_Toilet_7E",
+      "type": "toilet",
+      "floor": 7,
+      "label": "Ladies Toilet (East Wing, Second Floor)",
+      "aliases": [
+        "ladies toilet",
+        "womens toilet"
+      ],
+      "corridor": "7_east",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Gents_Toilet_7W",
+      "type": "toilet",
+      "floor": 7,
+      "label": "Gents Toilet (West Wing, Second Floor)",
+      "aliases": [
+        "gents toilet",
+        "mens toilet"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    },
+    {
+      "id": "Ladies_Toilet_7W",
+      "type": "toilet",
+      "floor": 7,
+      "label": "Ladies Toilet (West Wing, Second Floor)",
+      "aliases": [
+        "ladies toilet",
+        "womens toilet"
+      ],
+      "corridor": "7_west",
+      "floor_name": "Second Floor"
+    }
+  ],
+  "edges": [
+    {
+      "from": "501",
+      "to": "Lift_5C",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "501",
+      "to": "502",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "502",
+      "to": "501",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "502",
+      "to": "503",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "503",
+      "to": "502",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "503",
+      "to": "504",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "504",
+      "to": "503",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "504",
+      "to": "Steps_5SE",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "505",
+      "to": "Steps_5SE",
+      "direction": "south",
+      "corridor_segment": "5_east_south_junc",
+      "distance": 1
+    },
+    {
+      "from": "505",
+      "to": "506",
+      "direction": "north",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "506",
+      "to": "507",
+      "direction": "north",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "506",
+      "to": "505",
+      "direction": "south",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "507",
+      "to": "507A",
+      "direction": "north",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "507",
+      "to": "506",
+      "direction": "south",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "507A",
+      "to": "Ladies_Toilet_5E",
+      "direction": "north",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "507A",
+      "to": "507",
+      "direction": "south",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "513",
+      "to": "Steps_5SW",
+      "direction": "south",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "513",
+      "to": "514",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "514",
+      "to": "513",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "514",
+      "to": "515",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "515",
+      "to": "514",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "515",
+      "to": "516",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "516",
+      "to": "515",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "516",
+      "to": "517",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "517",
+      "to": "516",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "517",
+      "to": "518",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "518",
+      "to": "517",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "518",
+      "to": "Ladies_Toilet_5W",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "521",
+      "to": "Gents_Toilet_5W",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "521",
+      "to": "522",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "522",
+      "to": "521",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "522",
+      "to": "Hall_5",
+      "direction": "east",
+      "corridor_segment": "5_nw_junc",
+      "distance": 1
+    },
+    {
+      "from": "523",
+      "to": "526",
+      "direction": "north",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "523",
+      "to": "524",
+      "direction": "east",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "524",
+      "to": "523",
+      "direction": "west",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "524",
+      "to": "Steps_5NE",
+      "direction": "east",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "526",
+      "to": "Seminar_Hall",
+      "direction": "west",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "526",
+      "to": "527",
+      "direction": "east",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "526",
+      "to": "523",
+      "direction": "south",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "527",
+      "to": "526",
+      "direction": "west",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "527",
+      "to": "Dept_of_Commerce",
+      "direction": "east",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Hall_5",
+      "to": "522",
+      "direction": "west",
+      "corridor_segment": "5_nw_junc",
+      "distance": 1
+    },
+    {
+      "from": "Hall_5",
+      "to": "Water_5",
+      "direction": "west",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Hall_5",
+      "to": "Seminar_Hall",
+      "direction": "east",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Seminar_Hall",
+      "to": "Hall_5",
+      "direction": "west",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Seminar_Hall",
+      "to": "526",
+      "direction": "east",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Seminar_Hall",
+      "to": "Panel_Room",
+      "direction": "south",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_Commerce",
+      "to": "527",
+      "direction": "west",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_Commerce",
+      "to": "Lift_5NE",
+      "direction": "east",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Physics_Lab",
+      "to": "Xerox_5",
+      "direction": "north",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Physics_Lab",
+      "to": "Small_Gate_5",
+      "direction": "south",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Xerox_5",
+      "to": "Steps_5SW",
+      "direction": "north",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Xerox_5",
+      "to": "Physics_Lab",
+      "direction": "south",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Panel_Room",
+      "to": "Seminar_Hall",
+      "direction": "north",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Water_5",
+      "to": "Hall_5",
+      "direction": "east",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Lift_5NE",
+      "to": "Dept_of_Commerce",
+      "direction": "west",
+      "corridor_segment": "5_north",
+      "distance": 1
+    },
+    {
+      "from": "Lift_5NE",
+      "to": "Steps_5NE",
+      "direction": "south",
+      "corridor_segment": "5_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Lift_5NE",
+      "to": "Lift_6NE",
+      "direction": "up",
+      "corridor_segment": "lift_NE",
+      "distance": 2
+    },
+    {
+      "from": "Lift_5C",
+      "to": "501",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "Lift_5C",
+      "to": "Steps_5SW",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "Lift_5C",
+      "to": "Lift_6C",
+      "direction": "up",
+      "corridor_segment": "lift_C",
+      "distance": 2
+    },
+    {
+      "from": "Steps_5SW",
+      "to": "513",
+      "direction": "north",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5SW",
+      "to": "Lift_5C",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5SW",
+      "to": "Xerox_5",
+      "direction": "south",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5NE",
+      "to": "524",
+      "direction": "west",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5NE",
+      "to": "Gate_5NE",
+      "direction": "east",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5NE",
+      "to": "Lift_5NE",
+      "direction": "north",
+      "corridor_segment": "5_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5NE",
+      "to": "Gents_Toilet_5E",
+      "direction": "south",
+      "corridor_segment": "5_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5NE",
+      "to": "Steps_6NE",
+      "direction": "up",
+      "corridor_segment": "steps_NE",
+      "distance": 3
+    },
+    {
+      "from": "Steps_5SE",
+      "to": "504",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5SE",
+      "to": "Gate_5E",
+      "direction": "east",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5SE",
+      "to": "505",
+      "direction": "north",
+      "corridor_segment": "5_east_south_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_5SE",
+      "to": "Steps_6E",
+      "direction": "up",
+      "corridor_segment": "steps_E",
+      "distance": 3
+    },
+    {
+      "from": "Gate_5E",
+      "to": "Steps_5SE",
+      "direction": "west",
+      "corridor_segment": "5_south",
+      "distance": 1
+    },
+    {
+      "from": "Gate_5NE",
+      "to": "Steps_5NE",
+      "direction": "west",
+      "corridor_segment": "5_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "Small_Gate_5",
+      "to": "Physics_Lab",
+      "direction": "north",
+      "corridor_segment": "5_south_west",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_5E",
+      "to": "Ladies_Toilet_5E",
+      "direction": "south",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_5E",
+      "to": "Steps_5NE",
+      "direction": "north",
+      "corridor_segment": "5_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_5E",
+      "to": "Gents_Toilet_5E",
+      "direction": "north",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_5E",
+      "to": "507A",
+      "direction": "south",
+      "corridor_segment": "5_east",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_5W",
+      "to": "Ladies_Toilet_5W",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_5W",
+      "to": "521",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_5W",
+      "to": "518",
+      "direction": "south",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_5W",
+      "to": "Gents_Toilet_5W",
+      "direction": "north",
+      "corridor_segment": "5_west",
+      "distance": 1
+    },
+    {
+      "from": "601",
+      "to": "Lift_6C",
+      "direction": "west",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "601",
+      "to": "Quantum_Computing",
+      "direction": "east",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "602",
+      "to": "Quantum_Computing",
+      "direction": "west",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "602",
+      "to": "603",
+      "direction": "east",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "603",
+      "to": "602",
+      "direction": "west",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "603",
+      "to": "Steps_6E",
+      "direction": "east",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "604",
+      "to": "Steps_6E",
+      "direction": "south",
+      "corridor_segment": "6_se_junc",
+      "distance": 1
+    },
+    {
+      "from": "604",
+      "to": "605",
+      "direction": "north",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "605",
+      "to": "606",
+      "direction": "north",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "605",
+      "to": "604",
+      "direction": "south",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "606",
+      "to": "607",
+      "direction": "north",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "606",
+      "to": "605",
+      "direction": "south",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "607",
+      "to": "607A",
+      "direction": "north",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "607",
+      "to": "606",
+      "direction": "south",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "607A",
+      "to": "Ladies_Toilet_6E",
+      "direction": "north",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "607A",
+      "to": "607",
+      "direction": "south",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "613",
+      "to": "Lift_6C",
+      "direction": "east",
+      "corridor_segment": "6_sw_junc",
+      "distance": 1
+    },
+    {
+      "from": "613",
+      "to": "Dept_of_Math",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "615",
+      "to": "Dept_of_Math",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "615",
+      "to": "616",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "616",
+      "to": "615",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "616",
+      "to": "617",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "617",
+      "to": "616",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "617",
+      "to": "Energy_Science_Lab",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "621",
+      "to": "Gents_Toilet_6W",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "621",
+      "to": "Dept_of_CS_W",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "623",
+      "to": "625",
+      "direction": "north",
+      "corridor_segment": "6_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "623",
+      "to": "624",
+      "direction": "east",
+      "corridor_segment": "6_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "624",
+      "to": "623",
+      "direction": "west",
+      "corridor_segment": "6_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "624",
+      "to": "Steps_6NE",
+      "direction": "east",
+      "corridor_segment": "6_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "625",
+      "to": "Water_6",
+      "direction": "west",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "625",
+      "to": "626",
+      "direction": "east",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "625",
+      "to": "623",
+      "direction": "south",
+      "corridor_segment": "6_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "626",
+      "to": "625",
+      "direction": "west",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "626",
+      "to": "627",
+      "direction": "east",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "627",
+      "to": "626",
+      "direction": "west",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "627",
+      "to": "Dept_of_CS_N",
+      "direction": "east",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "Quantum_Computing",
+      "to": "601",
+      "direction": "west",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "Quantum_Computing",
+      "to": "602",
+      "direction": "east",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_Math",
+      "to": "613",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_Math",
+      "to": "615",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_CS_W",
+      "to": "621",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_CS_W",
+      "to": "Water_6",
+      "direction": "east",
+      "corridor_segment": "6_nw_junc",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_CS_N",
+      "to": "627",
+      "direction": "west",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_CS_N",
+      "to": "Lift_6NE",
+      "direction": "east",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "Energy_Science_Lab",
+      "to": "617",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Energy_Science_Lab",
+      "to": "Ladies_Toilet_6W",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Water_6",
+      "to": "Dept_of_CS_W",
+      "direction": "west",
+      "corridor_segment": "6_nw_junc",
+      "distance": 1
+    },
+    {
+      "from": "Water_6",
+      "to": "625",
+      "direction": "east",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "Lift_6NE",
+      "to": "Dept_of_CS_N",
+      "direction": "west",
+      "corridor_segment": "6_north",
+      "distance": 1
+    },
+    {
+      "from": "Lift_6NE",
+      "to": "Steps_6NE",
+      "direction": "south",
+      "corridor_segment": "6_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Lift_6NE",
+      "to": "Lift_5NE",
+      "direction": "down",
+      "corridor_segment": "lift_NE",
+      "distance": 2
+    },
+    {
+      "from": "Lift_6NE",
+      "to": "Lift_7NE",
+      "direction": "up",
+      "corridor_segment": "lift_NE",
+      "distance": 2
+    },
+    {
+      "from": "Lift_6C",
+      "to": "601",
+      "direction": "east",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "Lift_6C",
+      "to": "613",
+      "direction": "west",
+      "corridor_segment": "6_sw_junc",
+      "distance": 1
+    },
+    {
+      "from": "Lift_6C",
+      "to": "Lift_5C",
+      "direction": "down",
+      "corridor_segment": "lift_C",
+      "distance": 2
+    },
+    {
+      "from": "Lift_6C",
+      "to": "Lift_7C",
+      "direction": "up",
+      "corridor_segment": "lift_C",
+      "distance": 2
+    },
+    {
+      "from": "Steps_6NE",
+      "to": "624",
+      "direction": "west",
+      "corridor_segment": "6_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "Steps_6NE",
+      "to": "Lift_6NE",
+      "direction": "north",
+      "corridor_segment": "6_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_6NE",
+      "to": "Gents_Toilet_6E",
+      "direction": "south",
+      "corridor_segment": "6_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_6NE",
+      "to": "Steps_5NE",
+      "direction": "down",
+      "corridor_segment": "steps_NE",
+      "distance": 3
+    },
+    {
+      "from": "Steps_6NE",
+      "to": "Steps_7NE",
+      "direction": "up",
+      "corridor_segment": "steps_NE",
+      "distance": 3
+    },
+    {
+      "from": "Steps_6E",
+      "to": "603",
+      "direction": "west",
+      "corridor_segment": "6_south",
+      "distance": 1
+    },
+    {
+      "from": "Steps_6E",
+      "to": "604",
+      "direction": "north",
+      "corridor_segment": "6_se_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_6E",
+      "to": "Steps_5SE",
+      "direction": "down",
+      "corridor_segment": "steps_E",
+      "distance": 3
+    },
+    {
+      "from": "Steps_6E",
+      "to": "Steps_7E",
+      "direction": "up",
+      "corridor_segment": "steps_E",
+      "distance": 3
+    },
+    {
+      "from": "Gents_Toilet_6E",
+      "to": "Ladies_Toilet_6E",
+      "direction": "south",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_6E",
+      "to": "Steps_6NE",
+      "direction": "north",
+      "corridor_segment": "6_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_6E",
+      "to": "Gents_Toilet_6E",
+      "direction": "north",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_6E",
+      "to": "607A",
+      "direction": "south",
+      "corridor_segment": "6_east",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_6W",
+      "to": "Ladies_Toilet_6W",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_6W",
+      "to": "621",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_6W",
+      "to": "Energy_Science_Lab",
+      "direction": "south",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_6W",
+      "to": "Gents_Toilet_6W",
+      "direction": "north",
+      "corridor_segment": "6_west",
+      "distance": 1
+    },
+    {
+      "from": "701",
+      "to": "Lift_7C",
+      "direction": "west",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "701",
+      "to": "702",
+      "direction": "east",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "702",
+      "to": "701",
+      "direction": "west",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "702",
+      "to": "703",
+      "direction": "east",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "703",
+      "to": "702",
+      "direction": "west",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "703",
+      "to": "704",
+      "direction": "east",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "704",
+      "to": "703",
+      "direction": "west",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "704",
+      "to": "Steps_7E",
+      "direction": "east",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "705",
+      "to": "Steps_7E",
+      "direction": "south",
+      "corridor_segment": "7_se_junc",
+      "distance": 1
+    },
+    {
+      "from": "705",
+      "to": "707",
+      "direction": "north",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "707",
+      "to": "708",
+      "direction": "north",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "707",
+      "to": "705",
+      "direction": "south",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "708",
+      "to": "709C",
+      "direction": "north",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "708",
+      "to": "707",
+      "direction": "south",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "709C",
+      "to": "Ladies_Toilet_7E",
+      "direction": "north",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "709C",
+      "to": "708",
+      "direction": "south",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "710",
+      "to": "Lift_7C",
+      "direction": "east",
+      "corridor_segment": "7_sw_junc",
+      "distance": 1
+    },
+    {
+      "from": "710",
+      "to": "711",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "711",
+      "to": "710",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "711",
+      "to": "713",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "713",
+      "to": "711",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "713",
+      "to": "714",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "714",
+      "to": "713",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "714",
+      "to": "715",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "715",
+      "to": "714",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "715",
+      "to": "716",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "715",
+      "to": "Dept_of_Psychology",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "716",
+      "to": "715",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "716",
+      "to": "717",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "717",
+      "to": "716",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "717",
+      "to": "718",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "718",
+      "to": "717",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "718",
+      "to": "Ladies_Toilet_7W",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "721",
+      "to": "722",
+      "direction": "west",
+      "corridor_segment": "7_nw_junc",
+      "distance": 1
+    },
+    {
+      "from": "721",
+      "to": "Prayer_Hall",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "722",
+      "to": "Gents_Toilet_7W",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "722",
+      "to": "721",
+      "direction": "east",
+      "corridor_segment": "7_nw_junc",
+      "distance": 1
+    },
+    {
+      "from": "724",
+      "to": "725",
+      "direction": "north",
+      "corridor_segment": "7_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "724",
+      "to": "Steps_7NE",
+      "direction": "east",
+      "corridor_segment": "7_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "725",
+      "to": "Assembly_Hall",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "725",
+      "to": "727",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "725",
+      "to": "724",
+      "direction": "south",
+      "corridor_segment": "7_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "727",
+      "to": "725",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "727",
+      "to": "School_of_Education",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "727",
+      "to": "741",
+      "direction": "north",
+      "corridor_segment": "7_wing_a_junc",
+      "distance": 1
+    },
+    {
+      "from": "741",
+      "to": "742",
+      "direction": "east",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "741",
+      "to": "727",
+      "direction": "south",
+      "corridor_segment": "7_wing_a_junc",
+      "distance": 1
+    },
+    {
+      "from": "742",
+      "to": "741",
+      "direction": "west",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "742",
+      "to": "743",
+      "direction": "east",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "743",
+      "to": "742",
+      "direction": "west",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "743",
+      "to": "744",
+      "direction": "east",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "744",
+      "to": "743",
+      "direction": "west",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "744",
+      "to": "746",
+      "direction": "east",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "746",
+      "to": "744",
+      "direction": "west",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "746",
+      "to": "747",
+      "direction": "east",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "747",
+      "to": "746",
+      "direction": "west",
+      "corridor_segment": "7_wing_a",
+      "distance": 1
+    },
+    {
+      "from": "747",
+      "to": "751",
+      "direction": "north",
+      "corridor_segment": "7_wing_b_junc",
+      "distance": 1
+    },
+    {
+      "from": "751",
+      "to": "752",
+      "direction": "east",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "751",
+      "to": "747",
+      "direction": "south",
+      "corridor_segment": "7_wing_b_junc",
+      "distance": 1
+    },
+    {
+      "from": "752",
+      "to": "751",
+      "direction": "west",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "752",
+      "to": "753",
+      "direction": "east",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "753",
+      "to": "752",
+      "direction": "west",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "753",
+      "to": "754",
+      "direction": "east",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "754",
+      "to": "753",
+      "direction": "west",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "754",
+      "to": "755",
+      "direction": "east",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "755",
+      "to": "754",
+      "direction": "west",
+      "corridor_segment": "7_wing_b",
+      "distance": 1
+    },
+    {
+      "from": "Prayer_Hall",
+      "to": "721",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Prayer_Hall",
+      "to": "Assembly_Hall",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Assembly_Hall",
+      "to": "Prayer_Hall",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Assembly_Hall",
+      "to": "725",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Dept_of_Psychology",
+      "to": "715",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "School_of_Education",
+      "to": "727",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "School_of_Education",
+      "to": "Assoc_Dean_Sciences",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Assoc_Dean_Sciences",
+      "to": "School_of_Education",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Assoc_Dean_Sciences",
+      "to": "Lift_7NE",
+      "direction": "east",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Lift_7NE",
+      "to": "Assoc_Dean_Sciences",
+      "direction": "west",
+      "corridor_segment": "7_north",
+      "distance": 1
+    },
+    {
+      "from": "Lift_7NE",
+      "to": "Steps_7NE",
+      "direction": "south",
+      "corridor_segment": "7_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Lift_7NE",
+      "to": "Lift_6NE",
+      "direction": "down",
+      "corridor_segment": "lift_NE",
+      "distance": 2
+    },
+    {
+      "from": "Lift_7C",
+      "to": "701",
+      "direction": "east",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "Lift_7C",
+      "to": "710",
+      "direction": "west",
+      "corridor_segment": "7_sw_junc",
+      "distance": 1
+    },
+    {
+      "from": "Lift_7C",
+      "to": "Lift_6C",
+      "direction": "down",
+      "corridor_segment": "lift_C",
+      "distance": 2
+    },
+    {
+      "from": "Steps_7NE",
+      "to": "724",
+      "direction": "west",
+      "corridor_segment": "7_inner_north",
+      "distance": 1
+    },
+    {
+      "from": "Steps_7NE",
+      "to": "Lift_7NE",
+      "direction": "north",
+      "corridor_segment": "7_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_7NE",
+      "to": "Gents_Toilet_7E",
+      "direction": "south",
+      "corridor_segment": "7_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_7NE",
+      "to": "Steps_6NE",
+      "direction": "down",
+      "corridor_segment": "steps_NE",
+      "distance": 3
+    },
+    {
+      "from": "Steps_7E",
+      "to": "704",
+      "direction": "west",
+      "corridor_segment": "7_south",
+      "distance": 1
+    },
+    {
+      "from": "Steps_7E",
+      "to": "705",
+      "direction": "north",
+      "corridor_segment": "7_se_junc",
+      "distance": 1
+    },
+    {
+      "from": "Steps_7E",
+      "to": "Steps_6E",
+      "direction": "down",
+      "corridor_segment": "steps_E",
+      "distance": 3
+    },
+    {
+      "from": "Gents_Toilet_7E",
+      "to": "Ladies_Toilet_7E",
+      "direction": "south",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_7E",
+      "to": "Steps_7NE",
+      "direction": "north",
+      "corridor_segment": "7_ne_junc",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_7E",
+      "to": "Gents_Toilet_7E",
+      "direction": "north",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_7E",
+      "to": "709C",
+      "direction": "south",
+      "corridor_segment": "7_east",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_7W",
+      "to": "Ladies_Toilet_7W",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "Gents_Toilet_7W",
+      "to": "722",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_7W",
+      "to": "718",
+      "direction": "south",
+      "corridor_segment": "7_west",
+      "distance": 1
+    },
+    {
+      "from": "Ladies_Toilet_7W",
+      "to": "Gents_Toilet_7W",
+      "direction": "north",
+      "corridor_segment": "7_west",
+      "distance": 1
+    }
+  ]
+}

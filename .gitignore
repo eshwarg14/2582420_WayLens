@@ -1,0 +1,56 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Output artifacts & Caches
+outputs/logs/*.log
+outputs/audio_cache/*.wav
+outputs/reports/*.json
+audio_cache/
+logs/
+reports/
+
+# Large model weights (downloaded automatically at runtime)
+models/ocr_models/
+ocr_models/
+*.pth
+*.onnx
+*.bin
+
+# Security / SSL Certificates
+*.pem
+*.key
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.gemini/
+*.tmp

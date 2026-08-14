@@ -1,0 +1,29 @@
+# Core ML (CPU-only)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+# CLIP embeddings
+open-clip-torch
+
+# Speech-to-text & TTS
+faster-whisper
+pyttsx3
+
+# OCR
+pytesseract
+easyocr
+Pillow
+
+# Graph / Routing
+networkx
+
+# Server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Utilities
+requests
+numpy
+pydantic

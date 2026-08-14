@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0a0f1a">
+  <meta name="description" content="WayLens Indoor Classroom Navigation Assistant for visually impaired users">
+  <title>WayLens: Indoor Navigation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-shell">
+
+    <header class="top-bar" role="banner">
+      <div class="logo-group">
+        <div class="logo-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <circle cx="14" cy="14" r="12" stroke="#38bdf8" stroke-width="2.5"/>
+            <circle cx="14" cy="14" r="4" fill="#38bdf8"/>
+            <line x1="14" y1="2" x2="14" y2="8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+            <line x1="14" y1="20" x2="14" y2="26" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+            <line x1="2" y1="14" x2="8" y2="14" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+            <line x1="20" y1="14" x2="26" y2="14" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h1 class="app-name">WayLens</h1>
+      </div>
+      <div class="top-right">
+        <button id="voiceToggle" class="voice-toggle on" type="button" aria-label="Toggle voice" title="Voice On">
+          <svg id="voiceOnIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+          <svg id="voiceOffIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display:none"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+        </button>
+        <div id="statusBadge" class="badge idle" role="status" aria-live="polite">IDLE</div>
+      </div>
+    </header>
+
+    <nav class="mode-switcher" role="tablist" aria-label="Navigation mode">
+      <button id="liveTab" class="mode-tab active" role="tab" aria-selected="true" aria-controls="livePanel">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        Live Mode
+      </button>
+      <button id="demoTab" class="mode-tab" role="tab" aria-selected="false" aria-controls="demoPanel">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        Demo Mode
+      </button>
+    </nav>
+
+    <section class="dest-section" aria-label="Set destination">
+      <label for="textDestInput" class="dest-label">Where do you want to go?</label>
+      <div class="dest-row">
+        <input type="text" id="textDestInput" class="dest-input" placeholder="Room number (e.g. 513)" aria-label="Type room number" autocomplete="off">
+        <button id="textDestBtn" class="dest-go-btn" type="button">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </button>
+      </div>
+      <button id="micBtn" class="voice-btn" type="button" aria-label="Speak your destination">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+        <span id="micLabel">Tap to Speak Destination</span>
+      </button>
+    </section>
+
+    <div class="nav-info" aria-label="Navigation status">
+      <div class="nav-info-item">
+        <span class="nav-info-key">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 0 0-16 0c0 3 2.7 7 8 11.7z"/></svg>
+          Destination
+        </span>
+        <span id="destLabel" class="nav-info-val">Not set</span>
+      </div>
+      <div class="nav-info-divider"></div>
+      <div class="nav-info-item">
+        <span class="nav-info-key">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+          You are at
+        </span>
+        <span id="locationLabel" class="nav-info-val">Unknown</span>
+      </div>
+    </div>
+
+    <div id="stepsBar" class="steps-bar hidden" aria-label="Route progress">
+      <div class="steps-bar-label">
+        <span id="stepsText">Steps remaining</span>
+      </div>
+      <div class="steps-bar-track">
+        <div id="stepsProgress" class="steps-bar-fill" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <section class="map-section" aria-label="Building floor map">
+      <div class="map-header">
+        <span class="map-title">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+          Floor Map
+        </span>
+        <div class="floor-tabs">
+          <button class="floor-tab active" data-floor="5">Ground</button>
+          <button class="floor-tab" data-floor="6">1st Floor</button>
+          <button class="floor-tab" data-floor="7">2nd Floor</button>
+        </div>
+      </div>
+      <div class="map-container">
+        <canvas id="mapCanvas" width="600" height="520"></canvas>
+      </div>
+      <div class="map-legend">
+        <div class="legend-item"><span class="legend-dot room"></span>Room</div>
+        <div class="legend-item"><span class="legend-dot lift"></span>Lift</div>
+        <div class="legend-item"><span class="legend-dot steps"></span>Steps</div>
+        <div class="legend-item"><span class="legend-dot landmark"></span>Landmark</div>
+        <div class="legend-item"><span class="legend-dot gate"></span>Gate</div>
+        <div class="legend-item"><span class="legend-dot you"></span>You</div>
+        <div class="legend-item"><span class="legend-dot dest"></span>Dest</div>
+      </div>
+    </section>
+
+    <div class="instruction-card" aria-live="assertive" role="alert">
+      <div class="instruction-header">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span>Navigation Instruction</span>
+      </div>
+      <div id="instructionText" class="instruction-body">
+        Set your destination above, then scan or upload a room photo.
+      </div>
+    </div>
+
+    <section id="livePanel" class="mode-panel active" role="tabpanel" aria-labelledby="liveTab">
+      <div class="camera-box">
+        <video id="cameraVideo" autoplay playsinline muted></video>
+        <canvas id="captureCanvas" style="display:none;"></canvas>
+        <div class="camera-overlay">
+          <div class="camera-crosshair"></div>
+        </div>
+      </div>
+      <input type="file" id="cameraFileInput" accept="image/*" capture="environment" style="display:none;">
+      <div class="live-actions">
+        <button id="scanBtn" class="big-btn scan-color" type="button" aria-label="Scan your surroundings">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Scan
+        </button>
+        <button id="autoScanBtn" class="big-btn auto-color" type="button" aria-label="Toggle auto scan">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+          <span id="autoScanLabel">Auto: OFF</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="demoPanel" class="mode-panel" role="tabpanel" aria-labelledby="demoTab">
+      <p class="demo-hint">Upload or take a photo of any room sign. WayLens will detect the room and give you voice navigation instructions.</p>
+
+      <button id="demoUploadBtn" class="big-btn upload-color" type="button" aria-label="Upload or take a room photo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        Upload or Take Room Photo
+      </button>
+      <input type="file" id="demoFileInput" accept="image/*" style="display:none;">
+
+      <div id="demoPreview" class="demo-preview hidden" aria-label="Uploaded image preview">
+        <img id="demoPreviewImg" alt="Uploaded room photo">
+      </div>
+
+      <div id="demoResult" class="demo-result hidden" aria-live="polite">
+        <div class="demo-result-header">
+          <span class="demo-result-label">Detected Room</span>
+          <span id="demoDetectedRoom" class="demo-result-room">None</span>
+        </div>
+        <div id="demoInstruction" class="demo-result-instruction"></div>
+      </div>
+    </section>
+
+    <button id="endBtn" class="end-btn" type="button" aria-label="End navigation and reset">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
+      End Navigation
+    </button>
+
+  </div>
+
+  <audio id="ttsAudio" style="display:none;"></audio>
+  <script src="/static/floormap.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
